@@ -8,6 +8,8 @@ import Ex05 from "./pages/useClick"
 import Ex06 from "./pages/useConfirm"
 import Ex07 from "./pages/usePreventLeave"
 import Ex08 from "./pages/useBeforeLeave"
+import Ex09 from "./pages/useFadeIn"
+import Ex10 from "./pages/useNetwork"
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
       <Link to="/useConfirm">useConfirm </Link>
       <Link to="/usePreventLeave">usePreventLeave </Link>
       <Link to="/useBeforeLeave">useBeforeLeave </Link>
+      <Link to="/useFadeIn">useFadeIn </Link>
+      <Link to="/useNetwork">useNetwork </Link>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/useInput" element={<Ex01/>}></Route>
@@ -32,6 +36,8 @@ function App() {
         <Route path="/useConfirm" element={<Ex06/>}></Route>
         <Route path="/usePreventLeave" element={<Ex07/>}></Route>
         <Route path="/useBeforeLeave" element={<Ex08/>}></Route>
+        <Route path="/useFadeIn" element={<Ex09/>}></Route>
+        <Route path="/useNetwork" element={<Ex10/>}></Route>
       </Routes>
     </>
   )
