@@ -30,3 +30,10 @@ Hook을 활용하진 않았지만 함수를 활용하여 브라우저를 끄려�
 ## useConfirm
 Hook을 활용하진 않았지만 함수를 활용하여 중요한 작업 실행 전 한 번더 물어보는 (ex. 게시글 삭제...) 모달 생성
 [useConfirm](./src/pages/useConfirm.jsx)
+
+## useFadeIn
+useRef와 useEffect를 사용하여 요소를 FadeIn 애니메이션을 적용
+[useFadeIn](./src/pages/useFadeIn.jsx)
+
+## useNetwork
+useEffect를 활용하여 브라우저가 온라인일 때와 오프라인일 때를 감지하여 함수 실행
