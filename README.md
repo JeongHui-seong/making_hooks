@@ -18,3 +18,15 @@ useEffect의 componentDidMount와 componentWillUpdate를 활용한 웹 브라우
 ## useClick
 useEffect의 componentDidMount, componentWillUpdate, componentWillUnMount를 모두 활용하고, useRef와 함께 사용해 클릭시 함수 동작
 [useClick](./src/pages/useClick.jsx)
+
+## useBeforeLeave
+useEffect를 활용하여 마우스 커서가 브라우저를 이탈했을 때 함수 동작
+[useBeforeLeave](./src/pages/useBeforeLeave.jsx)
+
+## usePreventLeave
+Hook을 활용하진 않았지만 함수를 활용하여 브라우저를 끄려고 할 때 한 번더 물어보는 모달 생성
+[usePreventLeave](./src/pages/usePreventLeave.jsx)
+
+## useConfirm
+Hook을 활용하진 않았지만 함수를 활용하여 중요한 작업 실행 전 한 번더 물어보는 (ex. 게시글 삭제...) 모달 생성
+[useConfirm](./src/pages/useConfirm.jsx)
