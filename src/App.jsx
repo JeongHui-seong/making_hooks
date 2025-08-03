@@ -10,6 +10,10 @@ import Ex07 from "./pages/usePreventLeave"
 import Ex08 from "./pages/useBeforeLeave"
 import Ex09 from "./pages/useFadeIn"
 import Ex10 from "./pages/useNetwork"
+import Ex11 from "./pages/useScroll"
+import Ex12 from "./pages/useFullScreen"
+import Ex13 from "./pages/useNotification"
+import Ex14 from "./pages/useAxios"
 
 function App() {
 
@@ -26,6 +30,10 @@ function App() {
       <Link to="/useBeforeLeave">useBeforeLeave </Link>
       <Link to="/useFadeIn">useFadeIn </Link>
       <Link to="/useNetwork">useNetwork </Link>
+      <Link to="/useScroll">useScroll </Link>
+      <Link to="/useFullScreen">useFullScreen </Link>
+      <Link to="/useNotification">useNotification </Link>
+      <Link to="/useAxios">useAxios </Link>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/useInput" element={<Ex01/>}></Route>
@@ -38,6 +46,10 @@ function App() {
         <Route path="/useBeforeLeave" element={<Ex08/>}></Route>
         <Route path="/useFadeIn" element={<Ex09/>}></Route>
         <Route path="/useNetwork" element={<Ex10/>}></Route>
+        <Route path="/useScroll" element={<Ex11/>}></Route>
+        <Route path="/useFullScreen" element={<Ex12/>}></Route>
+        <Route path="/useNotification" element={<Ex13/>}></Route>
+        <Route path="/useAxios" element={<Ex14/>}></Route>
       </Routes>
     </>
   )
